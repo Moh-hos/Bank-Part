@@ -1,0 +1,109 @@
+* {
+  font-family: Peyda;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 42px;
+  background-color: #f7f8fa;
+}
+.header {
+  max-width: 1920px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 40px;
+}
+.header .logo {
+  display: flex;
+  gap: 12px;
+
+  align-items: center;
+  flex-grow: 1;
+  width: 178px;
+  height: 31px;
+}
+.header .logo span {
+  color: #3c4351;
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.left-header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 8px;
+}
+.layout {
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 1400px;
+  padding: 40px;
+  align-self: center;
+  background-color: #fff;
+}
+
+.information {
+  display: flex;
+  gap: 120px;
+  justify-content: start;
+  margin-top: 40px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 4px;
+}
+.button {
+  display: flex;
+  justify-content: end;
+  gap: 16px;
+  width: 100%;
+}
+.button .submit {
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4152a0;
+  width: 209px;
+  height: 48px;
+  border-style: none;
+  font-weight: 700;
+  cursor: pointer;
+  flex-shrink: 2;
+}
+.button .prior {
+  color: #3c4351;
+  background-color: #eceef6;
+}
+.text-submit {
+  align-self: center;
+  color: #3c4351;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.info span {
+  opacity: 0.6;
+  font-weight: 400;
+}
+.info p {
+  font-weight: 600;
+  color: #3c4351;
+}
